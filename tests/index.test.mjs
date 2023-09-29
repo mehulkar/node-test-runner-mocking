@@ -1,7 +1,7 @@
 import { test, mock } from "node:test";
 import assert from "node:assert";
 import got from "got";
-import { isUrlOk } from "../dist/index.js";
+import { isUrlOk } from "../src/index.ts";
 
 test("testtesttest", async (t) => {
   const mockGot = t.mock.method(got, "head", () => {
