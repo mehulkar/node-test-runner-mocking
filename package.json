@@ -1,0 +1,16 @@
+{
+  "name": "node-test-runner-test",
+  "version": "0.0.0",
+  "private": true,
+  "description": "",
+  "keywords": [],
+  "scripts": {
+    "build": "tsup",
+    "test": "npm run build && node --test tests/index.test.mjs"
+  },
+  "devDependencies": {
+    "got": "^11.8.6",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  }
+}

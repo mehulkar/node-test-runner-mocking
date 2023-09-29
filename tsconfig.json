@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "TS Library",
+
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "inlineSources": false,
+    "isolatedModules": true,
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "preserveWatchOutput": true,
+    "strict": true,
+    "target": "es2022",
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "allowJs": false,
+    "rootDir": "."
+  },
+  "exclude": ["node_modules", "dist"]
+}
